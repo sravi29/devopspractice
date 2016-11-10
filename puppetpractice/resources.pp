@@ -1,4 +1,5 @@
 file {'/devopspractice/puppetpractice':
-$owner='root',
-$mode='0664',
+ensure=>
+$owner=>'root',
+$mode=>'0664',
 }
